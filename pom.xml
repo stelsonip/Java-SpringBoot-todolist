@@ -39,6 +39,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<dependency> <!-- using Bcrypt Java Lib to encrypt passwords -->
+			<groupId>at.favre.lib</groupId>
+			 <artifactId>bcrypt</artifactId>
+			 <version>0.10.2</version>
+		</dependency>
+
 		<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
